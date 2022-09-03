@@ -33,7 +33,7 @@ body {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16),
     0 3px 6px rgba(0,0,0,0.23);
     height: 80vh;
-    width: 80vw;
+    width: 70vw;
     position: relative;
     overflow: hidden;
     }
@@ -45,8 +45,8 @@ body {
         background-position: center center;
         background-size: cover;
         position: absolute;
-        top: -15vh;
-        left: -15vw;
+        top: -20vh;
+        left: -20vw;
         transition: 0.6s ease;
         z-index: 1;
 
@@ -59,13 +59,14 @@ body {
     .arrow {
         position: fixed;
         background-color: transparent;
-        padding: 20px;
-        font-size: 30px;
+        padding: 10px;
+        font-size: 40px;
         border: 3px solid orangered;
         top:50%;
         transform:translateY(-50%);
         color: white;
         cursor: pointer;
+        border-radius: 25px;
       
     }
 
